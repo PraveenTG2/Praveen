@@ -178,4 +178,17 @@ nav ul li a:hover::after {
 }
 
 
+.header-text h1 {
+
+  font-size: 96px;
+  animation: animMarker 0.5s ease-in-out infinite alternate;
+}
+
+.header-text h1 span {
+  color: #8baafd;
+
+
+}
+
+
 
