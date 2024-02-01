@@ -45,3 +45,137 @@ html {
   background-position: center;
 }
 
+
+@keyframes morph {
+
+  0%,
+  100% {
+      border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+      -webkit-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+      -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+      -ms-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+      -o-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+  }
+
+  34% {
+      border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+
+  67% {
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
+}
+
+.container {
+  padding: 2px 4%;
+  opacity: 0;
+
+}
+
+.containers {
+
+  padding: 2px 4%;
+  opacity: 0;
+
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+}
+
+nav ul li:hover {
+  scale: 1.1;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #dbc7cd;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+
+
+}
+
+.animate__animated.animate__slideInUp {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInDown {
+  --animate-duration: 4s;
+}
+
+
+.header-text {
+  position: right;
+  text-align: right;
+  padding-top: 7%;
+  font-size: 23px;
+
+}
+
+.setdiv {
+  padding-top: 70px;
+}
+
+.setdiv p {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s, cursor .4s step-end infinite alternate;
+  -webkit-animation: typing 3s, cursor .4s step-end infinite alternate;
+
+
+}
+
+@keyframes cursor {
+  50% {
+      border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+
+}
+
+
+
