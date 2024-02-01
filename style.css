@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+body {
+  color: #fff;
+  background: linear-gradient(90deg, rgba(2, 0, 1, 0.993) 0%, rgb(2, 6, 48) 100%);
+}
