@@ -6,13 +6,17 @@
 }
 
 body {
+
   color: #fff;
   background: linear-gradient(90deg, rgba(2, 0, 1, 0.993) 0%, rgb(60, 6, 2) 100%); 
 }
 
 html {
   scroll-behavior: smooth;
+
 }
+
+
 
 .box {
   opacity: 0;
@@ -22,6 +26,7 @@ html {
   -ms-transition: opacity 3.5s ease;
   -o-transition: opacity 3.5s ease;
 }
+
 
 @keyframes slideIn1 {
   0% {
@@ -36,6 +41,9 @@ html {
 }
 
 
+
+
+
 /* home screen */
 #header {
   width: 100%;
@@ -43,8 +51,10 @@ html {
   background-image: url(images/Home.png);
   background-size: cover;
   background-position: center;
-}
 
+
+
+}
 
 @keyframes morph {
 
@@ -178,6 +188,7 @@ nav ul li a:hover::after {
 }
 
 
+
 .header-text h1 {
 
   font-size: 96px;
@@ -186,6 +197,8 @@ nav ul li a:hover::after {
 
 .header-text h1 span {
   color: #8baafd;
+
+
 }
 
 .header-text h2 {
@@ -1984,8 +1997,7 @@ form textarea {
       display: none;
   }
 
-
-    #about {
+  #about {
       padding-top: 40px;
       padding-left: 20px;
       color: #ababab;
@@ -3879,4 +3891,3 @@ span.text {
     display:none;
    }
 }
-
