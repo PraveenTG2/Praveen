@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { ThemeProvider } from "src/hooks/themeHook";
+import { ThemeProvider } from "./theme/themeHook";
 import "./i18n";
 
 ReactDOM.render(
