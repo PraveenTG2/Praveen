@@ -67,7 +67,7 @@ function Footer() {
 
             <li className="social-icons">
               <a className="footer-social-icons"
-                href="https://telegram.me/Crazy_Phoenix"
+                href="https://www.instagram.com/phoenix__offl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
