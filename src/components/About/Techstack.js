@@ -22,7 +22,6 @@ import {
 import { FaHtml5 } from "react-icons/fa";
 import { SiCss3 } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
-import { FaLinux } from "react-icons/fa";
 
 
 
@@ -39,7 +38,6 @@ function Techstack() {
           <DiReact />,
           <DiMongodb />,      
           <FaWordpress />,
-          <FaLinux />,
         ].map(tool => 
           <Col xs={4} md={2} className="tech-icons">
             {tool}
