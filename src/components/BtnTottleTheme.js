@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { useThemeContext } from "./theme/themeHook";
+import { useThemeContext } from "src/theme/themeHook";
 import { BsSunFill } from 'react-icons/bs';
 import { FaMoon } from 'react-icons/fa';
 import { Button } from 'react-bootstrap';
