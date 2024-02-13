@@ -1,5 +1,5 @@
 import ReactParticles from 'react-tsparticles';
-import { useThemeContext } from "./theme/themeHook";
+import { useThemeContext } from "src/theme/themeHook";
 
 const LIGHT_THEME_PARTICLES = {
   number: {
