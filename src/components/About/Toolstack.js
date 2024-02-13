@@ -11,7 +11,6 @@ import {
   SiGooglecolab
 } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
-import { BiLogoNetlify } from "react-icons/bi";
 
 
 function Toolstack() {
@@ -25,7 +24,6 @@ function Toolstack() {
           <SiAmazonaws/>,
           <SiDocker/>,
           <SiGooglecolab/>,
-          <BiLogoNetlify />,
         ].map(tool => 
             <Col xs={4} md={2} className="tech-icons">
               {tool}

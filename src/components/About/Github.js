@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
-import { useThemeContext } from "src/theme/themeHook";
+import { useThemeContext } from "../../hooks/themeHook";
 
 function Github() {
   const { dark } = useThemeContext();

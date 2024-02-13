@@ -12,7 +12,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
           {t('Greeting')} {t('Im')} <span className="green">Praveen</span>, {t('MLE')} {t('IWorkAt')} <span className="green">{t('Company')}</span> {t('CompanyLocation')}.
             <br/>
-            {t('IHoldDegree1')} <span className="green">Computer Science Engineering</span> {t('School1')} {t('And')} <span className="green">Data Science and Engineering</span> {t('School2')}.
+            {t('IHoldDegree1')} <span className="green">Computer Science Engineering</span> {t('School1')}.
             
             <br/>
             <br/>
