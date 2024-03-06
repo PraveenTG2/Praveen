@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import BtnToggleTheme from "./BtnTottleTheme";
 import { Col, Dropdown, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
+import { CgFileDocument } from "react-icons/cg";
 
 import {
   AiOutlineHome,
