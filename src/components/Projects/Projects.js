@@ -5,6 +5,8 @@ import Particle from "../Particle";
 
 import portfolio from "../../assets/Projects/portfolio.png";
 
+import portfolio from "../../assets/Projects/RPG.png";
+
 import { useTranslation } from "react-i18next";
 
 function Projects() {
@@ -28,7 +30,17 @@ function Projects() {
               description={t('Proj4')}
               link="https://github.com/PraveenTG2/Praveen"
             />
-          </Col>         
+          </Col>   
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={RPG}
+              isBlog={false}
+              title="Randam Password Generator"
+              description="A random password generator"
+              link="https://codepen.io/Roopakvignesh/pen/poBERye"
+            />
+          </Col>  
         </Row>
       </Container>
     </Container>
