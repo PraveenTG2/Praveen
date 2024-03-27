@@ -37,7 +37,7 @@ function Projects() {
               imgPath={RPG}
               isBlog={false}
               title="Randam Password Generator"
-              description="A random password generator"
+              description="   "
               link="https://codepen.io/Roopakvignesh/pen/poBERye"
             />
           </Col>  
