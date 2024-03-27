@@ -37,7 +37,7 @@ function Github() {
       </h1>
 
       <GitHubCalendar
-        username="thriuxd"
+        username="PraveenTG2"
         blockSize={16}
         blockMargin={5}
         theme={colourTheme}
