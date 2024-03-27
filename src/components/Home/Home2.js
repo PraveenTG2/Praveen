@@ -19,38 +19,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               A recent Computer Science graduate with a solid foundation in programming language
               <br />
               <br />Such as 
               <i>
-                <b className="purple"> Python, C/C++, HTML, CSS, Java, JavaScript and ReactJS. </b>
+                <b className="green"> Python, C/C++, HTML, CSS, Java, JavaScript and ReactJS. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="green">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
+                <b className="green">
                   Linux.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Python</b> and
+              with <b className="green">Python</b> and
               <i>
-                <b className="purple">
+                <b className="green">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="green"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
