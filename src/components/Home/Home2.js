@@ -22,11 +22,12 @@ function Home2() {
               LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              A recent Computer Science graduate with a solid foundation in programming language
+              Hello! My name is Praveen Kumar, and I am a passionate computer science student with a keen interest in web development and programming.
               <br />
-              <br />Such as 
+              <br />During my studies, I have focused on mastering web development technologies Such as 
               <i>
-                <b className="green"> Python, C/C++, HTML, CSS, Java, JavaScript and ReactJS. </b>
+                <b className="green"> HTML, CSS, Java, JavaScript,ReactJS And Python. </b>
+                These powerful tools have enabled me to bring my creative visions to life, crafting responsive and engaging <b className="green"> user interfaces</b> that enhance the online experience.
               </i>
               <br />
               <br />
