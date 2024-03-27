@@ -4,6 +4,7 @@ import homeLogo from "../../assets/home.svg";
 import Particle from "../Particle";
 import Type from "./Type";
 import { useTranslation } from "react-i18next";
+import Home2 from "./Home2";
 
 function Home() {
   const { t } = useTranslation();
@@ -35,6 +36,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Home2 />
     </section>
   );
 }
