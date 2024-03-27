@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import portfolio from "../../assets/Projects/portfolio.png";
 
-import portfolio from "../../assets/Projects/RPG.png";
+import RPG from "../../assets/Projects/RPG.png";
 
 import { useTranslation } from "react-i18next";
 
