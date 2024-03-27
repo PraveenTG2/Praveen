@@ -11,8 +11,7 @@ function Type() {
         strings: [
           t('Typer1'),
           t('Typer2'),
-          t('Typer3'),
-          t('Typer4')
+          t('Typer3')
         ],
         autoStart: true,
         loop: true,
