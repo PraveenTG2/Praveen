@@ -31,13 +31,13 @@ function Home2() {
               <br />
               <br />
               These powerful tools have enabled me to bring my creative visions to
-              <i>
-                <b className="green">life </b> and
+              <b>
+                <b className="green"> life </b> and
                 , crafting responsive and engaging user interfaces that enhance the online{" "}
                 <b className="green">
                   experience.
                 </b>
-              </i>
+              </b>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
