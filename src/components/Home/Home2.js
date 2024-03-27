@@ -27,7 +27,6 @@ function Home2() {
               <br />During my studies, I have focused on mastering web development technologies Such as 
               <i>
                 <b className="green"> HTML, CSS, Java, JavaScript,ReactJS And Python. </b>
-                These powerful tools have enabled me to bring my creative visions to life, crafting responsive and engaging <b className="green"> user interfaces</b> that enhance the online experience.
               </i>
               <br />
               <br />
