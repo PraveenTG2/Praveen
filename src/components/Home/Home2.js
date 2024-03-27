@@ -30,12 +30,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              These powerful tools have enabled me to bring my creative visions to
               <i>
-                <b className="green">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="green">life </b> and
+                , crafting responsive and engaging user interfaces that enhance the online{" "}
                 <b className="green">
-                  Linux.
+                  experience.
                 </b>
               </i>
               <br />
